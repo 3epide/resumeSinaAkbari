@@ -1183,7 +1183,7 @@ footer p {
 
     .hero-description {
         margin: 0;
-        max-width: 100px;
+        /* max-width: 100px; */
         font-size: 12px;
         line-height: 1.7;
     }
