@@ -743,7 +743,7 @@ footer p {
         background: #07090b;
         border-bottom: 1px solid #252a2f;
         border-top: 1px solid #252a2f;
-        padding: 10px 20px;
+        /* padding: 10px 20px; */
 
         opacity: 0;
         visibility: hidden;
@@ -761,7 +761,8 @@ footer p {
         transform: translateY(0);
     }
     .nav-links a{
-        padding: 14px 10px !important;
+        text-align: end;
+        padding: 14px 45px !important;
         border-bottom: 1px solid rgba(255, 255, 255, 0.05);
     }
     .nav-links a:last-child{
@@ -898,9 +899,7 @@ footer p {
 
 /*           MOBILE SIZE CSS          */
 @media (max-width:600px) {
-    .navbar {
-        height: 65px;
-    }
+    
 
     .logo strong {
         font-size: 14px;
