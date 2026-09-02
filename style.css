@@ -46,14 +46,16 @@
     color: #ff7800;
 
 }
-
+.end-part{
+    display: flex;
+}
 .language-switcher {
     display: flex;
     align-items: center;
     gap: 5px;
     direction: ltr;
-    position: absolute;
-    right: 170px;
+    margin-right:10px ;
+    
 }
 
 .language {
@@ -709,8 +711,27 @@ footer p {
 @media (max-width: 1024PX) {
 
     /*   NAVBAR    */
+    .language {
+
+        font-size: 14px;
+    }
+
+    .toggle {
+        height: 20px;
+        width: 37px;
+    }
+
+    .toggle::before {
+        width: 14px;
+        height: 14px;
+    }
+
     .nav-links a {
         padding: 5px;
+    }
+
+    .nav-button {
+        padding: 10px;
     }
 
     /* -- Hero -- */
@@ -763,7 +784,7 @@ footer p {
 @media (max-width:900px) {
 
     /* ---------- Navbar ---------- */
-
+    
     .nav-button {
         display: none;
     }
@@ -813,6 +834,9 @@ footer p {
 
     .nav-links a:last-child {
         border-bottom: none;
+    }
+    .language-switcher{
+        margin-right: 35px;
     }
 
 
@@ -955,10 +979,20 @@ footer p {
         font-size: 9px;
         letter-spacing: 2px;
     }
-
+    .toggle {
+        height: 16px;
+        width: 31px;
+    }
+    .language{
+        
+    }
+    .toggle::before {
+        width: 10px;
+        height: 10px;
+    }
     .menu-button {
         font-size: 20px;
-        margin-right: 20px;
+        margin-right: 34px;
     }
 
     /* ---------- Hero ---------- */
@@ -1248,6 +1282,12 @@ footer p {
 
 /*           MINIMOBILE SIZE CSS          */
 @media (max-width:400px) {
+    .language-switcher{
+        margin-right: 10px;
+    }
+     .language{
+        font-size: 10px;
+    } 
     .hero {
         min-height: auto;
         padding: 55px 22px 30px;
