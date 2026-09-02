@@ -1,5 +1,6 @@
 const menuButton =document.getElementById("menuButton");
 const navLinks=document.querySelector(".nav-links");
+const toggle=document.getElementById("languageToggle")
 
 menuButton.addEventListener("click",()=>{
     navLinks.classList.toggle("active");
@@ -10,3 +11,4 @@ navLinks.querySelectorAll("a").forEach(link =>{
         navLinks.classList.remove("active")
     });
 });
+
