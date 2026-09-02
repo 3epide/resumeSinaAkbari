@@ -12,3 +12,8 @@ navLinks.querySelectorAll("a").forEach(link =>{
     });
 });
 
+toggle.addEventListener("click",() => {
+    toggle.classList.toggle("active");
+
+    
+})

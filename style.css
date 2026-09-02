@@ -89,7 +89,7 @@
 
 /*       ENGLISH      */
 .toggle.active::before {
-    transform: translateX(26px);
+    transform: translateX(24px);
 }
 
 
@@ -733,6 +733,9 @@ footer p {
     .nav-button {
         padding: 10px;
     }
+    .toggle.active::before {
+        transform: translateX(17px);
+    }
 
     /* -- Hero -- */
     .hero-content {
@@ -985,6 +988,9 @@ footer p {
     }
     .language{
         
+    }
+    .toggle.active::before {
+        transform: translateX(14px);
     }
     .toggle::before {
         width: 10px;
