@@ -152,6 +152,8 @@
     font-size: clamp(45px, 6vw, 82px);
     line-height: 1.05;
     letter-spacing: -2px;
+    margin-bottom: 20px;
+
 }
 
 .hero h1 span {
