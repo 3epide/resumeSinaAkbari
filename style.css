@@ -238,13 +238,14 @@
 }
 
 .hero-visual img {
-    height: 90%;
-    width: 80%;
+    width: 100%;
     object-fit: contain;
     z-index: 2;
     filter: grayscale(100%) contrast(1.1);
+    position: absolute;
+    top: 295px;
+    right: 20px;
 }
-
 .orange-glow {
     position: absolute;
     width: 420px;
@@ -753,9 +754,8 @@ footer p {
     }
 
     .hero-visual img {
-        height: 80%;
-        width: 70%;
-        right: 70px;
+        width: 75%;
+        right: 89px;
     }
 
     /* ---------- About ---------- */
@@ -897,6 +897,8 @@ footer p {
     .hero-visual img {
         width: min(500px, 85%);
         height: 100%;
+        position: absolute;
+        top: 44px;
     }
 
     .gear-circle {
