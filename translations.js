@@ -1,4 +1,5 @@
 const translations = {
+    //                                            اینگلیسی          
     en: {
         //       navbar    
         nav: {
@@ -186,7 +187,39 @@ const translations = {
                     "MATLAB"
                 ],
                 button: "VIEW CASE STUDY →",
-            }
+            },
+        //     EDUCATION
+        education:{
+            label:"05 / EDUCATION",
+            titleStart:"Academic",
+            titleHighLight:"background.",
+            master:{
+                year:"2018",
+                degree:" Master of Science",
+                field:"Mechanical Engineering",
+                univercity:"Applied Mechanics",
+            },
+            bachelor:{
+                year:"2015",
+                degree:"Bachelor of Science",
+                field:"Mechanical Engineering",
+                univercity:"Yasuj University",
+            },
+        },
+        //        CONTACT    
+        contact:{
+            label:"06 / CONTACT",
+            titleStart:" Let's build something",
+            titleHighLight:"meaningful.",
+            description:"Have an engineering challenge,  product idea or project in mind? Let's discuss how we can turn it into a working solution.",
+            sendEmail:"SEND AN EMAIL →",
+        }
+        },
+        //       footer
+        footer:{
+            title:"MECHANICAL ENGINEER",
+            description:"Design · Analysis · Manufacturing · Innovation",
+            copyright:"© 2026 Mechanical Engineering Portfolio",
         }
     },
 };
