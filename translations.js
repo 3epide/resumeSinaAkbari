@@ -32,7 +32,7 @@ const translations = {
             paragraph1: "I'm a Mechanical Design Engineer with more than seven years of experience in mechanical design, robotics and advanced product development.",
             paragraph2: "My work combines CAD modeling, mechanical analysis, prototyping, manufacturing and testing to transform engineering concepts into reliable products.",
             location: "Location",
-            locationValue: "Pisa, Italy",
+            locationValue: "Tehran, Iran",
             education: "Education",
             educationValue: "M.Sc. Mechanical Engineering",
             specialization: "Specialization",
@@ -188,38 +188,142 @@ const translations = {
                 ],
                 button: "VIEW CASE STUDY →",
             },
-        //     EDUCATION
-        education:{
-            label:"05 / EDUCATION",
-            titleStart:"Academic",
-            titleHighLight:"background.",
-            master:{
-                year:"2018",
-                degree:" Master of Science",
-                field:"Mechanical Engineering",
-                univercity:"Applied Mechanics",
+            //     EDUCATION
+            education: {
+                label: "05 / EDUCATION",
+                titleStart: "Academic",
+                titleHighLight: "background.",
+                master: {
+                    year: "2018",
+                    degree: " Master of Science",
+                    field: "Mechanical Engineering",
+                    univercity: "Applied Mechanics",
+                },
+                bachelor: {
+                    year: "2015",
+                    degree: "Bachelor of Science",
+                    field: "Mechanical Engineering",
+                    univercity: "Yasuj University",
+                },
             },
-            bachelor:{
-                year:"2015",
-                degree:"Bachelor of Science",
-                field:"Mechanical Engineering",
-                univercity:"Yasuj University",
-            },
-        },
-        //        CONTACT    
-        contact:{
-            label:"06 / CONTACT",
-            titleStart:" Let's build something",
-            titleHighLight:"meaningful.",
-            description:"Have an engineering challenge,  product idea or project in mind? Let's discuss how we can turn it into a working solution.",
-            sendEmail:"SEND AN EMAIL →",
-        }
+            //        CONTACT    
+            contact: {
+                label: "06 / CONTACT",
+                titleStart: " Let's build something",
+                titleHighLight: "meaningful.",
+                description: "Have an engineering challenge,  product idea or project in mind? Let's discuss how we can turn it into a working solution.",
+                sendEmail: "SEND AN EMAIL →",
+            }
         },
         //       footer
-        footer:{
-            title:"MECHANICAL ENGINEER",
-            description:"Design · Analysis · Manufacturing · Innovation",
-            copyright:"© 2026 Mechanical Engineering Portfolio",
+        footer: {
+            title: "MECHANICAL ENGINEER",
+            description: "Design · Analysis · Manufacturing · Innovation",
+            copyright: "© 2026 Mechanical Engineering Portfolio",
         }
+
     },
-};
+    //           farsi          
+    fa: {
+        //      navbar    
+        nav: {
+            home: "خانه",
+            about: "درباره من",
+            expertise: "تخصص ها",
+            experience: "سوابق",
+            projects: "پروژه ها",
+            contact: "Contact",
+            getInTouch: "تماس با ما"
+        },
+        //      hero      
+        hero: {
+            label: "مهندس طراحی مکانیک",
+            titleStart: "من طراحی میکنم ",
+            titleHighLight: "سیستم های مکانیکی",
+            titleEnd: "که ایده‌ها را به واقعیت تبدیل می‌کنند.",
+            description: "مهندس طراحی مکانیک با تخصص در سیستم‌های مکانیکی، طراحی CAD، شبیه‌سازی، نمونه‌سازی و توسعه محصول.",
+            viewProjects: "مشاهده پروژه‌ها",
+            aboutMe: "درباره من",
+            yearsExperience: "سال تجربه",
+            patents: " ثبت اختراع",
+            engineeringProjects: "پروژه های مهندسی"
+        },
+        //            about
+        about: {
+            label: "01 / درباره من ",
+            titleStart: "مهندسی با",
+            titleHighLight: "هدف.",
+            paragraph1: "من یک مهندس طراحی مکانیک هستم و بیش از هفت سال تجربه در زمینه طراحی مکانیکی، رباتیک و توسعه پیشرفته محصولات دارم.",
+            paragraph2: "فعالیت من ترکیبی از مدل‌سازی CAD، تحلیل مکانیکی، نمونه‌سازی، ساخت و آزمایش است تا مفاهیم مهندسی را به محصولات قابل اعتماد تبدیل کنم.",
+            location: "موقعیت",
+            locationValue: "تهران, ایران",
+            education: "تحصیلات",
+            educationValue: "فوق دیپلم مهندسی مکانیک",
+            specialization: "تخصص",
+            pecializationValue: "مکانیک کاربردی",
+            experience: "تجربه",
+            experienceValue: "7+ سال",
+            downloadCV: "دانلود رزومه ↓"
+        },
+        //         EXPERTISE         
+        EXPERTISE: {
+            label: " 02 / تخصص ها",
+            titleStart: "توانمندی های ",
+            titleHighLight: "فنی.",
+            MechanicalDesign: {
+                title: "طراحی مکانیک",
+                description: "طراحی مکانیزم، توسعه قطعات و طراحی کامل سیستم‌های مکانیکی.",
+                tags: [
+                    "SolidWorks",
+                    "Inventor",
+                    "Creo"
+                ]
+            },
+            cad: {
+                title: "مدل‌سازی CAD و سه‌بعدی",
+                description: "مدل‌سازی پیشرفته سه‌بعدی، اسمبلی، نقشه‌های فنی و مستندسازی طراحی.",
+                tags: [
+                    "CAD",
+                    "GD&T",
+                    "Drafting"
+                ]
+            },
+            simulation: {
+                title: "شبیه‌سازی و تحلیل",
+                description: "مهندسی مبتنی بر شبیه‌سازی و تحلیل سازه‌ای برای دستیابی به طراحی‌های قابل اعتماد.",
+                tags: [
+                    "FEA",
+                    "ABAQUS",
+                    "MATLAB"
+                ]
+            },
+            manufacturing: {
+                title: "ساخت و تولید",
+                description: "طراحی برای ساخت، نمونه‌سازی، ماشین‌کاری CNC و مستندسازی تولید.",
+                tags: [
+                    "DFM",
+                    "CAM",
+                    "CNC"
+                ]
+            },
+            prototyping: {
+                title: "نمونه‌سازی",
+                description: "از اولین نمونه اولیه تا آزمایش، اعتبارسنجی و بهبود محصول.",
+                tags: [
+                    "3D Printing",
+                    "Testing",
+                    "Assembly"
+                ]
+            },
+            projectLeadership: {
+                title: "رهبری پروژه",
+                description: "رهبری تیم‌های چندرشته‌ای و مدیریت پروژه‌های مهندسی از مرحله ایده تا تولید.",
+                tags: [
+                    "Leadership",
+                    "R&D",
+                    "Management"
+                ]
+            },
+        }
+    } 
+}
