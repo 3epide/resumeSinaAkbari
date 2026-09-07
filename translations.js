@@ -209,7 +209,8 @@ const translations = {
             //        CONTACT    
             contact: {
                 label: "06 / CONTACT",
-                titleStart: " Let's build something",
+                titleStart: " Let's build ",
+                titleMiddle: "something",
                 titleHighLight: "meaningful.",
                 description: "Have an engineering challenge,  product idea or project in mind? Let's discuss how we can turn it into a working solution.",
                 sendEmail: "SEND AN EMAIL →",
@@ -220,7 +221,7 @@ const translations = {
             title: "MECHANICAL ENGINEER",
             description: "Design · Analysis · Manufacturing · Innovation",
             copyright: "© 2026 Mechanical Engineering Portfolio",
-        }
+        },
 
     },
     //           farsi          
@@ -266,7 +267,7 @@ const translations = {
             downloadCV: "دانلود رزومه ↓"
         },
         //         EXPERTISE         
-        EXPERTISE: {
+        expertise: {
             label: " 02 / تخصص ها",
             titleStart: "توانمندی های ",
             titleHighLight: "فنی.",
@@ -324,6 +325,130 @@ const translations = {
                     "Management"
                 ]
             },
+        },
+        //      experience
+        experience: {
+            label: "03 / سوابق کاری",
+            titleStart: "مسیر حرفه ای ",
+            titleHighLight: "من.",
+            researchFellow: {
+                date: "2022 — اکنون",
+                title: " پژوهشگر",
+                compony: "Institute of Mechanical Intelligence",
+                description: "تحقیق و توسعه در زمینه رباتیک پوشیدنی، اسکلت‌های بیرونی نرم، طراحی مکانیزم و بهینه‌سازی مبتنی بر شبیه‌سازی.",
+            },
+            mechanicalDesignEngineer: {
+                date: "2022 — 2024",
+                title: "مهندس طراحی مکانیک",
+                compony: "Wearable Robotics",
+                description: "طراحی سیستم‌های رباتیک و قطعات مکانیکی با استفاده از CAD، شبیه‌سازی، نمونه‌سازی و آزمایش.",
+            },
+            designEngineer: {
+                date: "2021 — 2022",
+                title: "مهندس طراحیr",
+                compony: "Baal Industries",
+                description: "توسعه مدل‌های CAD، لیست قطعات، نقشه‌های فنی و مستندات ساخت برای سازه‌های مکانیکی."
+            },
+            founder: {
+                date: "2017 — 2021",
+                title: "بنیان‌گذار و مهندس مکانیک",
+                compony: " Borna Tech",
+                description: "مدیریت توسعه محصول از ایده و نمونه‌سازی تا آزمایش و مونتاژ، شامل سیستم‌های رباتیک کمکی دارای ثبت اختراع.",
+            },
+        },
+        //       PROJECTS
+        projects: {
+            label: "04 / پروژه های منتخب",
+            titleStart: "ایده های مهندسی",
+            titleHighLight: "ساخته شده برای عملکرد.",
+            description: "منتخبی از پروژه‌های مهندسی که فرآیند کار از تعریف مسئله تا طراحی، تحلیل و ساخت نمونه نهایی را نشان می‌دهند.",
+            filters: {
+                all: "همه",
+                automotive: "خودرو",
+                robotics: "رباتیک",
+                mechanicalDESIGN: "طراحی مکانیک",
+                analyses: "تحلیل"
+            },
+            flexos: {
+                category: "رباتیک",
+                title: "FLEXOS",
+                description: "سیستم رباتیک پوشیدنی که برای کمک به حرکت انسان با استفاده از مکانیزم‌های مکانیکی پیشرفته طراحی شده است.",
+                tags: [
+                    "CAD",
+                    "شبیه سازی ",
+                    "نمونه سازی"
+                ],
+                button: "مشاهده مطالعه موردی →",
+            },
+            exotive: {
+                category: "طراحی مکانیکی",
+                title: "EXOTIVE",
+                description: "سیستم مکانیکی پیشرفته که با استفاده از مدل‌سازی CAD، طراحی مکانیزم و اعتبارسنجی نمونه اولیه توسعه یافته است.",
+                tags: [
+                    "SolidWorks",
+                    "GD&T",
+                    "DFM"
+                ],
+                button: "مشاهده مطالعه موردی  →",
+            },
+            automotive: {
+                category: "خودرو",
+                title: "سیستم خودرو",
+                description: "Mechanical system development for automotive applications with focus on performance and manufacturability.",
+                tags: [
+                    "CAD",
+                    "FEA",
+                    "ساخت"
+                ],
+                button: "مشاهده مطالعه موردی →",
+            },
+            engineeringanalysis: {
+                category: "تحیل مهندسی",
+                title: "تحلیل سازه ای",
+                description: "ارزیابی مبتنی بر شبیه‌سازی قطعات مکانیکی با هدف افزایش قابلیت اطمینان و بهینه‌سازی طراحی نهایی.",
+                tags: [
+                    "ABAQUS",
+                    "FEA",
+                    "MATLAB"
+                ],
+                button: "VIEW CASE STUDY →",
+            },
+            //     EDUCATION
+            education: {
+                label: "05 / تحصیلات",
+                titleStart: "سوابق ",
+                titleHighLight: "تحصیلی.",
+                master: {
+                    year: "2018",
+                    degree: " کارشناسی ارشد",
+                    field: "مهندسی مکانیک",
+                    univercity: "مکانیک کاربردی",
+                },
+                bachelor: {
+                    year: "2015",
+                    degree: "کارشناسی",
+                    field: "مهندسی مکانیک",
+                    univercity: "دانشگاه یاسوج",
+                },
+            },
+            //        CONTACT    
+            contact: {
+                label: "06 / تماس",
+                titleStart: "بیاید ",
+                titleMiddle: "چیزی",
+                titleHighLight: "معنادار بسازیم.",
+                description: "آیا یک چالش مهندسی، ایده محصول یا پروژه‌ای در ذهن دارید؟ بیایید درباره اینکه چگونه می‌توانیم آن را به یک راهکار عملی تبدیل کنیم صحبت کنیم.",
+                sendEmail: "ارسال ایمیل →",
+            },
+            //       footer
+            footer: {
+                title: "مهندس مکانیک",
+                description: "طراحی · تحیل · ساخت · نواوری",
+                copyright: "© ۲۰۲۶ پورتفولیوی مهندسی مکانیک",
+            },
+            
         }
-    } 
+
+    }
 }
+
