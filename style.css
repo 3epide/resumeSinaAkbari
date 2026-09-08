@@ -46,16 +46,18 @@
     color: #ff7800;
 
 }
-.end-part{
+
+.end-part {
     display: flex;
 }
+
 .language-switcher {
     display: flex;
     align-items: center;
     gap: 5px;
     direction: ltr;
-    margin-right:10px ;
-    
+    margin-right: 10px;
+
 }
 
 .language {
@@ -246,6 +248,7 @@
     top: 295px;
     right: 20px;
 }
+
 .orange-glow {
     position: absolute;
     width: 420px;
@@ -736,6 +739,7 @@ footer p {
     .nav-button {
         padding: 10px;
     }
+
     .toggle.active::before {
         transform: translateX(17px);
     }
@@ -789,7 +793,7 @@ footer p {
 @media (max-width:900px) {
 
     /* ---------- Navbar ---------- */
-    
+
     .nav-button {
         display: none;
     }
@@ -840,7 +844,8 @@ footer p {
     .nav-links a:last-child {
         border-bottom: none;
     }
-    .language-switcher{
+
+    .language-switcher {
         margin-right: 35px;
     }
 
@@ -986,20 +991,23 @@ footer p {
         font-size: 9px;
         letter-spacing: 2px;
     }
+
     .toggle {
         height: 16px;
         width: 31px;
     }
-    .language{
-        
-    }
+
+    .language {}
+
     .toggle.active::before {
         transform: translateX(14px);
     }
+
     .toggle::before {
         width: 10px;
         height: 10px;
     }
+
     .menu-button {
         font-size: 20px;
         margin-right: 16px;
@@ -1292,15 +1300,18 @@ footer p {
 
 /*           MINIMOBILE SIZE CSS          */
 @media (max-width:400px) {
-    .language-switcher{
-        margin-right: 10px; 
+    .language-switcher {
+        margin-right: 10px;
     }
-     .language{
+
+    .language {
         font-size: 12px;
-    } 
-    .navbar{
+    }
+
+    .navbar {
         padding: 0 5%;
     }
+
     .hero {
         min-height: auto;
         padding: 55px 22px 30px;
@@ -1383,6 +1394,9 @@ footer p {
         width: 88%;
         height: 95%;
         object-fit: contain;
+        position: absolute;
+        left: 0;
+        top: 56px;
     }
 
     .gear-circle {
