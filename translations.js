@@ -29,6 +29,7 @@ const translations = {
             label: "01 / ABOUT ME",
             titleStart: "Engineering with",
             titleHighLight: "purpose.",
+            heading: "Mechanical Design Engineer",
             paragraph1: "I'm a Mechanical Design Engineer with more than seven years of experience in mechanical design, robotics and advanced product development.",
             paragraph2: "My work combines CAD modeling, mechanical analysis, prototyping, manufacturing and testing to transform engineering concepts into reliable products.",
             location: "Location",
@@ -233,7 +234,7 @@ const translations = {
             expertise: "تخصص ها",
             experience: "سوابق",
             projects: "پروژه ها",
-            contact: "Contact",
+            contact: "ارتباط با ما",
             getInTouch: "تماس با ما"
         },
         //      hero      
@@ -254,6 +255,7 @@ const translations = {
             label: "01 / درباره من ",
             titleStart: "مهندسی با",
             titleHighLight: "هدف.",
+            heading: "مهندس طراحی مکانیک",
             paragraph1: "من یک مهندس طراحی مکانیک هستم و بیش از هفت سال تجربه در زمینه طراحی مکانیکی، رباتیک و توسعه پیشرفته محصولات دارم.",
             paragraph2: "فعالیت من ترکیبی از مدل‌سازی CAD، تحلیل مکانیکی، نمونه‌سازی، ساخت و آزمایش است تا مفاهیم مهندسی را به محصولات قابل اعتماد تبدیل کنم.",
             location: "موقعیت",
