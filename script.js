@@ -35,11 +35,13 @@ function changeLanguage(language) {
 
         }
     });
+    // document.documentElement.dir = language === "fa" ? "rtl" : "ltr";
+    document.documentElement.lang = language;
 }
 let currentLanguage = "en";
 const languageToggle = document.getElementById("languageToggle");
 languageToggle.addEventListener("click", () => {
-    currentLanguage = currentLanguage ==="en"?"fa":"en";
+    currentLanguage = currentLanguage === "en" ? "fa" : "en";
 
     changeLanguage(currentLanguage)
 });

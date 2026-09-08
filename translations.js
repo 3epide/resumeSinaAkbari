@@ -43,7 +43,7 @@ const translations = {
             downloadCV: "DOWNLOAD CV ↓"
         },
         //         EXPERTISE         
-        EXPERTISE: {
+        expertise: {
             label: " 02 / EXPERTISE",
             titleStart: "Technical",
             titleHighLight: "capabilities.",

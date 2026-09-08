@@ -713,6 +713,7 @@ footer p {
     margin-top: 5px;
 }
 
+
 /*          TABLET/SMALL LABTAB  SIZE CSS          */
 @media (max-width: 1024PX) {
 
@@ -1413,4 +1414,24 @@ footer p {
         height: 210px;
         filter: blur(75px);
     }
+}
+
+
+html[lang="fa"] {
+    font-family: 'Vazirmatn', sans-serif;
+}
+
+html[lang="fa"] .hero h1,
+html[lang="fa"] .hero p 
+{
+    direction: rtl;
+    text-align: right;
+}
+html[lang="fa"] .about,
+html[lang="fa"] .expertise,
+html[lang="fa"] .experience,
+html[lang="fa"] .projects,
+html[lang="fa"] .education,
+html[lang="fa"] .contact {
+    direction: rtl;
 }
