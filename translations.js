@@ -396,7 +396,7 @@ const translations = {
             automotive: {
                 category: "خودرو",
                 title: "سیستم خودرو",
-                description: "Mechanical system development for automotive applications with focus on performance and manufacturability.",
+                description: "توسعه سیستم مکانیکی برای کاربردهای خودرویی با تمرکز بر عملکرد و قابلیت ساخت.",
                 tags: [
                     "CAD",
                     "FEA",
@@ -415,42 +415,39 @@ const translations = {
                 ],
                 button: "VIEW CASE STUDY →",
             },
-            //     EDUCATION
-            education: {
-                label: "05 / تحصیلات",
-                titleStart: "سوابق ",
-                titleHighLight: "تحصیلی.",
-                master: {
-                    year: "2018",
-                    degree: " کارشناسی ارشد",
-                    field: "مهندسی مکانیک",
-                    univercity: "مکانیک کاربردی",
-                },
-                bachelor: {
-                    year: "2015",
-                    degree: "کارشناسی",
-                    field: "مهندسی مکانیک",
-                    univercity: "دانشگاه یاسوج",
-                },
+        },
+        //     EDUCATION
+        education: {
+            label: "05 / تحصیلات",
+            titleStart: "سوابق ",
+            titleHighLight: "تحصیلی.",
+            master: {
+                year: "2018",
+                degree: " کارشناسی ارشد",
+                field: "مهندسی مکانیک",
+                univercity: "مکانیک کاربردی",
             },
-            //        CONTACT    
-            contact: {
-                label: "06 / تماس",
-                titleStart: "بیاید ",
-                titleMiddle: "چیزی",
-                titleHighLight: "معنادار بسازیم.",
-                description: "آیا یک چالش مهندسی، ایده محصول یا پروژه‌ای در ذهن دارید؟ بیایید درباره اینکه چگونه می‌توانیم آن را به یک راهکار عملی تبدیل کنیم صحبت کنیم.",
-                sendEmail: "ارسال ایمیل →",
+            bachelor: {
+                year: "2015",
+                degree: "کارشناسی",
+                field: "مهندسی مکانیک",
+                univercity: "دانشگاه یاسوج",
             },
-            //       footer
-            footer: {
-                title: "مهندس مکانیک",
-                description: "طراحی · تحیل · ساخت · نواوری",
-                copyright: "© ۲۰۲۶ پورتفولیوی مهندسی مکانیک",
-            },
-            
-        }
-
+        },
+        //        CONTACT    
+        contact: {
+            label: "06 / تماس",
+            titleStart: "بیاید ",
+            titleMiddle: "چیزی",
+            titleHighLight: "معنادار بسازیم.",
+            description: "آیا یک چالش مهندسی، ایده محصول یا پروژه‌ای در ذهن دارید؟ بیایید درباره اینکه چگونه می‌توانیم آن را به یک راهکار عملی تبدیل کنیم صحبت کنیم.",
+            sendEmail: "ارسال ایمیل →",
+        },
+        //       footer
+        footer: {
+            title: "مهندس مکانیک",
+            description: "طراحی · تحیل · ساخت · نواوری",
+            copyright: "© ۲۰۲۶ پورتفولیوی مهندسی مکانیک",
+        },
     }
 }
-
