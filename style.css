@@ -164,7 +164,6 @@
 }
 
 .hero-description {
-    margin-right: 60px;
     font-size: 16px;
     color: #b7bcc1;
     max-width: 600px;
@@ -208,10 +207,10 @@
 
 .hero-stats {
     display: flex;
+    justify-content: space-between;
 }
 
 .stat {
-    padding-right: 35px;
     letter-spacing: 1px;
 }
 
@@ -289,7 +288,6 @@
 
 .section span {
     color: #ff7800;
-    font-size: small;
     letter-spacing: 3px;
 }
 
@@ -302,15 +300,16 @@
 
 .section-heading h2 strong,
 .contact-content h2 strong {
-    color: #ff7800;
+    color: white;
 
 
 }
+.contact-content h2 span{
+    font-size: clamp(45px, 6vw, 75px);
 
+} 
 .about-grid {
-    display: flex;
-
-
+    display: flex
 }
 
 .about-image {
@@ -654,9 +653,7 @@
 .contact {
     text-align: center;
     border-top: 1px solid #252a2f;
-    background: radial-gradient(circle,
-            rgba(255, 120, 0, 0.1),
-            transparent 40%);
+    background:radial-gradient(circle, rgba(255, 120, 0, 0.1), transparent 40%);
     padding: 150px 7%;
     background-color: #07090b;
 }
@@ -1416,17 +1413,20 @@ footer p {
     }
 }
 
+/*                
+    persian styles
+                    */
 
 html[lang="fa"] {
     font-family: 'Vazirmatn', sans-serif;
 }
 
 html[lang="fa"] .hero h1,
-html[lang="fa"] .hero p 
-{
+html[lang="fa"] .hero p {
     direction: rtl;
     text-align: right;
 }
+
 html[lang="fa"] .about,
 html[lang="fa"] .expertise,
 html[lang="fa"] .experience,
@@ -1434,10 +1434,12 @@ html[lang="fa"] .education,
 html[lang="fa"] .contact {
     direction: rtl;
 }
+
 /*     persian project    */
-html[lang="fa"] .projects-section{
+html[lang="fa"] .projects-section {
     direction: rtl;
 }
+
 html[lang="fa"] .projects-section .section-heading {
     direction: rtl;
     text-align: right;
@@ -1445,36 +1447,54 @@ html[lang="fa"] .projects-section .section-heading {
 
 html[lang="fa"] .projects-section .section-heading span,
 html[lang="fa"] .projects-section .section-heading h2,
-html[lang="fa"] .projects-section .section-heading p{
+html[lang="fa"] .projects-section .section-heading p {
     text-align: right;
 }
-html[lang="fa"] .projects-section .project-filters{
+
+html[lang="fa"] .projects-section .project-filters {
     direction: rtl;
     justify-content: flex-start;
 }
-html[lang="fa"] .projects-section .filter{
+
+html[lang="fa"] .projects-section .filter {
     margin-right: 0;
     margin-left: 5px;
 }
-html[lang="fa"] .projects-section .project-info{
+
+html[lang="fa"] .projects-section .project-info {
     direction: rtl;
     text-align: right;
 }
+
 html[lang="fa"] .projects-section .project-category,
 html[lang="fa"] .projects-section .project-info h3,
-html[lang="fa"] .projects-section .project-info p{
+html[lang="fa"] .projects-section .project-info p {
     text-align: right;
 }
+
 html[lang="fa"] .projects-section .project-meta {
     direction: rtl;
     text-align: right;
 }
-html[lang="fa"] .projects-section .project-meta  span{
+
+html[lang="fa"] .projects-section .project-meta span {
     margin-right: 0;
     margin-left: 5px;
 }
+
 html[lang="fa"] .projects-section .project-link {
-direction: rtl;
+    direction: rtl;
 }
 
-
+html[lang="fa"] .hero-content .hero-stats span{
+    font-size: medium;
+}
+html[lang="fa"] .hero-content  .secondary {
+    margin-right: 20px;
+}
+html[lang="fa"] .section-heading  h2 span{
+    font-size: clamp(35px, 4vw, 54px);
+}
+html[lang="fa"] .section-heading  h2 strong{
+    color: white;
+}
