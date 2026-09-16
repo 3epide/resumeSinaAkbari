@@ -1430,8 +1430,51 @@ html[lang="fa"] .hero p
 html[lang="fa"] .about,
 html[lang="fa"] .expertise,
 html[lang="fa"] .experience,
-html[lang="fa"] .projects,
 html[lang="fa"] .education,
 html[lang="fa"] .contact {
     direction: rtl;
 }
+/*     persian project    */
+html[lang="fa"] .projects-section{
+    direction: rtl;
+}
+html[lang="fa"] .projects-section .section-heading {
+    direction: rtl;
+    text-align: right;
+}
+
+html[lang="fa"] .projects-section .section-heading span,
+html[lang="fa"] .projects-section .section-heading h2,
+html[lang="fa"] .projects-section .section-heading p{
+    text-align: right;
+}
+html[lang="fa"] .projects-section .project-filters{
+    direction: rtl;
+    justify-content: flex-start;
+}
+html[lang="fa"] .projects-section .filter{
+    margin-right: 0;
+    margin-left: 5px;
+}
+html[lang="fa"] .projects-section .project-info{
+    direction: rtl;
+    text-align: right;
+}
+html[lang="fa"] .projects-section .project-category,
+html[lang="fa"] .projects-section .project-info h3,
+html[lang="fa"] .projects-section .project-info p{
+    text-align: right;
+}
+html[lang="fa"] .projects-section .project-meta {
+    direction: rtl;
+    text-align: right;
+}
+html[lang="fa"] .projects-section .project-meta  span{
+    margin-right: 0;
+    margin-left: 5px;
+}
+html[lang="fa"] .projects-section .project-link {
+direction: rtl;
+}
+
+
