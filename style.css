@@ -207,7 +207,7 @@
 
 .hero-stats {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .stat {
@@ -306,6 +306,7 @@
 }
 .contact-content h2 span{
     font-size: clamp(45px, 6vw, 75px);
+    display: block;
 
 } 
 .about-grid {
@@ -1275,7 +1276,7 @@ footer p {
     }
 
     .contact h2 {
-        font-size: clap(40px, 11vw, 58px);
+        font-size: clamp(40px, 11vw, 58px);
         line-height: 1.05;
     }
 
@@ -1417,7 +1418,7 @@ footer p {
     persian styles
                     */
 
-html[lang="fa"] {
+html[lang="fa"]  *{
     font-family: 'Vazirmatn', sans-serif;
 }
 
@@ -1425,6 +1426,10 @@ html[lang="fa"] .hero h1,
 html[lang="fa"] .hero p {
     direction: rtl;
     text-align: right;
+}
+html[lang="fa"] .hero-content .hero-description{
+    /* direction: rtl; */
+    
 }
 
 html[lang="fa"] .about,
@@ -1486,15 +1491,11 @@ html[lang="fa"] .projects-section .project-link {
     direction: rtl;
 }
 
-html[lang="fa"] .hero-content .hero-stats span{
-    font-size: medium;
-}
 html[lang="fa"] .hero-content  .secondary {
     margin-right: 20px;
 }
-html[lang="fa"] .section-heading  h2 span{
-    font-size: clamp(35px, 4vw, 54px);
-}
+
 html[lang="fa"] .section-heading  h2 strong{
     color: white;
 }
+
