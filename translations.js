@@ -189,33 +189,33 @@ const translations = {
                 ],
                 button: "VIEW CASE STUDY →",
             },
-            //     EDUCATION
-            education: {
-                label: "05 / EDUCATION",
-                titleStart: "Academic",
-                titleHighLight: "background.",
-                master: {
-                    year: "2018",
-                    degree: " Master of Science",
-                    field: "Mechanical Engineering",
-                    univercity: "Applied Mechanics",
-                },
-                bachelor: {
-                    year: "2015",
-                    degree: "Bachelor of Science",
-                    field: "Mechanical Engineering",
-                    univercity: "Yasuj University",
-                },
+        },
+        //     EDUCATION
+        education: {
+            label: "05 / EDUCATION",
+            titleStart: "Academic",
+            titleHighLight: "background.",
+            master: {
+                year: "2018",
+                degree: " Master of Science",
+                field: "Mechanical Engineering",
+                univercity: "Applied Mechanics",
             },
-            //        CONTACT    
-            contact: {
-                label: "06 / CONTACT",
-                titleStart: " Let's build ",
-                titleMiddle: "something",
-                titleHighLight: "meaningful.",
-                description: "Have an engineering challenge,  product idea or project in mind? Let's discuss how we can turn it into a working solution.",
-                sendEmail: "SEND AN EMAIL →",
-            }
+            bachelor: {
+                year: "2015",
+                degree: "Bachelor of Science",
+                field: "Mechanical Engineering",
+                univercity: "Yasuj University",
+            },
+        },
+        //        CONTACT    
+        contact: {
+            label: "06 / CONTACT",
+            titleStart: " Let's build ",
+            titleMiddle: "something",
+            titleHighLight: "meaningful.",
+            description: "Have an engineering challenge,  product idea or project in mind? Let's discuss how we can turn it into a working solution.",
+            sendEmail: "SEND AN EMAIL →",
         },
         //       footer
         footer: {
@@ -223,8 +223,8 @@ const translations = {
             description: "Design · Analysis · Manufacturing · Innovation",
             copyright: "© 2026 Mechanical Engineering Portfolio",
         },
-
     },
+
     //           farsi          
     fa: {
         //      navbar    
@@ -437,9 +437,9 @@ const translations = {
         //        CONTACT    
         contact: {
             label: "06 / تماس",
-            titleStart: "بیاید ",
-            titleMiddle: "چیزی",
-            titleHighLight: "معنادار بسازیم.",
+            titleStart: "بیایید بسازیم  ",
+            titleMiddle: " چیزی "  ,
+            titleHighLight: " معنادار.",
             description: "آیا یک چالش مهندسی، ایده محصول یا پروژه‌ای در ذهن دارید؟ بیایید درباره اینکه چگونه می‌توانیم آن را به یک راهکار عملی تبدیل کنیم صحبت کنیم.",
             sendEmail: "ارسال ایمیل →",
         },

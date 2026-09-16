@@ -1,6 +1,6 @@
 const menuButton = document.getElementById("menuButton");
 const navLinks = document.querySelector(".nav-links");
-const toggle = document.getElementById("languageToggle")
+const toggle = document.getElementById("languageToggle");
 
 menuButton.addEventListener("click", () => {
     navLinks.classList.toggle("active");
@@ -23,6 +23,8 @@ function getTranslation(object, path) {
     }, object)
 }
 function changeLanguage(language) {
+    //  document.documentElement.dir = language === "fa" ? "rtl" : "ltr";
+
     const elements = document.querySelectorAll("[data-i18n]");
     elements.forEach(element => {
         const key = element.dataset.i18n;
@@ -30,12 +32,11 @@ function changeLanguage(language) {
             translations[language],
             key
         );
-        if (translation) {
+        if (translation !== undefined) {
             element.textContent = translation;
 
         }
     });
-    // document.documentElement.dir = language === "fa" ? "rtl" : "ltr";
     document.documentElement.lang = language;
 }
 let currentLanguage = "en";
